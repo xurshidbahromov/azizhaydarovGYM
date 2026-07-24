@@ -20,15 +20,15 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   const titles: Record<Locale, string> = {
-    uz: "AzizHaydarov GYM — Toshkentning Premium Sport Zali",
-    en: "AzizHaydarov GYM — Tashkent's Premium Fitness Center",
-    ru: "AzizHaydarov GYM — Премиальный Фитнес-Центр в Ташкенте",
+    uz: "AZIZ HAYDAROV GYM — Toshkentning Premium Sport Zali",
+    en: "AZIZ HAYDAROV GYM — Toshkentning Premium Sport Zali",
+    ru: "AZIZ HAYDAROV GYM — Toshkentning Premium Sport Zali",
   };
 
   const descriptions: Record<Locale, string> = {
     uz: "O'rta Osiyodagi eng yaxshi premium sport zali. Professional murabbiylar, zamonaviy jihozlar va individual yondashuv bilan o'zingizning eng kuchli versiyangizga erishing.",
-    en: "Central Asia's premier fitness facility. Achieve your strongest version with professional coaches, modern equipment, and a personalized approach.",
-    ru: "Ведущий фитнес-центр Центральной Азии. Достигни своей сильнейшей версии с профессиональными тренерами, современным оборудованием и персональным подходом.",
+    en: "O'rta Osiyodagi eng yaxshi premium sport zali. Professional murabbiylar, zamonaviy jihozlar va individual yondashuv bilan o'zingizning eng kuchli versiyangizga erishing.",
+    ru: "O'rta Osiyodagi eng yaxshi premium sport zali. Professional murabbiylar, zamonaviy jihozlar va individual yondashuv bilan o'zingizning eng kuchli versiyangizga erishing.",
   };
 
   return {
@@ -48,7 +48,7 @@ export async function generateMetadata({
       description: descriptions[locale],
       type: "website",
       locale: locale,
-      siteName: "AzizHaydarov GYM",
+      siteName: "AZIZ HAYDAROV GYM",
     },
     twitter: {
       card: "summary_large_image",
@@ -60,7 +60,11 @@ export async function generateMetadata({
       follow: true,
     },
     icons: {
-      icon: "/favicon.ico",
+      icon: [
+        { url: "/icon.svg", type: "image/svg+xml" }
+      ],
+      shortcut: "/icon.svg",
+      apple: "/icon.svg",
     },
   };
 }
@@ -82,6 +86,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} style={{ scrollBehavior: "smooth" }}>
       <head>
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any" />
+        <link rel="shortcut icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
