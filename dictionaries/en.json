@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "coaches": "Coaches",
+    "facilities": "Facilities",
+    "membership": "Membership",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "joinNow": "Join Now"
+  },
+  "hero": {
+    "tagline": "Your strongest version",
+    "headline1": "STARTS",
+    "headline2": "RIGHT HERE",
+    "sub": "Welcome to the premium training experience at Tashkent's most elite fitness facility.",
+    "cta1": "Start Today",
+    "cta2": "Explore More",
+    "scroll": "Scroll Down"
+  },
+  "stats": {
+    "members": "Members",
+    "coaches": "Pro Coaches",
+    "years": "Years Experience",
+    "satisfaction": "Client Satisfaction"
+  },
+  "about": {
+    "badge": "Our Philosophy",
+    "headline1": "We don't build bodies.",
+    "headline2": "We build discipline.",
+    "body": "AzizHaydarov GYM is not just a gym. It's a high-performance environment where elite equipment, professional coaches, and a motivating community come together. We exist to build the strongest version of you.",
+    "mission": "Mission",
+    "missionText": "To help every member reach their full potential.",
+    "vision": "Vision",
+    "visionText": "To be the premier fitness destination in Central Asia.",
+    "values": "Values",
+    "valuesText": "Discipline. Quality. Results. Community."
+  },
+  "programs": {
+    "badge": "Our Programs",
+    "headline": "CHOOSE YOUR PATH",
+    "sub": "Professionally designed training programs for every goal.",
+    "learnMore": "Learn More",
+    "items": {
+      "strength": { "title": "Strength Training", "desc": "A science-backed program to maximize foundational strength and muscle mass.", "duration": "60 min", "level": "All Levels" },
+      "bodybuilding": { "title": "Bodybuilding", "desc": "Professional bodybuilding methodology to sculpt the perfect physique.", "duration": "90 min", "level": "Intermediate–Advanced" },
+      "weightloss": { "title": "Weight Loss", "desc": "Optimal calorie-burning program for fast, sustainable results.", "duration": "45 min", "level": "Beginner" },
+      "functional": { "title": "Functional Fitness", "desc": "Develop strength, balance, and mobility for real-world performance.", "duration": "55 min", "level": "All Levels" },
+      "crossfit": { "title": "Cross Training", "desc": "High-intensity interval training for complete athletic performance.", "duration": "50 min", "level": "Intermediate–Advanced" },
+      "personal": { "title": "Personal Training", "desc": "1:1 individual program for faster, smarter results.", "duration": "60 min", "level": "All Levels" }
+    }
+  },
+  "coaches": {
+    "badge": "Our Team",
+    "headline": "PROFESSIONAL COACHES",
+    "sub": "A certified team of specialists with 10+ years of combined experience.",
+    "experience": "years experience",
+    "certified": "Certified"
+  },
+  "facilities": {
+    "badge": "Our Facility",
+    "headline": "PERFECT ENVIRONMENT",
+    "sub": "Every corner designed for premium performance.",
+    "items": {
+      "cardio": { "title": "Cardio Zone", "desc": "50+ modern cardio machines, including Technogym and Peloton equipment." },
+      "strength": { "title": "Strength Zone", "desc": "Olympic barbells, specialty benches, and weights up to 500kg." },
+      "functional": { "title": "Functional Area", "desc": "Battle ropes, kettlebells, plyo boxes, and a full gymnastics rig." },
+      "locker": { "title": "Locker Rooms", "desc": "Premium changing rooms, showers, and secure personal lockers." },
+      "recovery": { "title": "Recovery Zone", "desc": "Sauna, cryotherapy, massage tables, and foam rolling area." },
+      "nutrition": { "title": "Protein Bar", "desc": "High-quality protein shakes, health foods, and individual nutrition consultation." }
+    }
+  },
+  "transformations": {
+    "badge": "Results",
+    "headline": "REAL TRANSFORMATIONS",
+    "sub": "Life-changing results from our members.",
+    "before": "Before",
+    "after": "After",
+    "testimonials": [
+      { "name": "Jasur Toshmatov", "result": "−24 kg / 6 months", "text": "AzizHaydarov GYM changed my life. The coaches are professional, the equipment is premium. I've never felt this motivated anywhere else." },
+      { "name": "Nilufar Karimova", "result": "+15 kg muscle / 8 months", "text": "Training in this supportive, safe environment has been incredible. My coaches were with me every step of the way." },
+      { "name": "Bobur Yusupov", "result": "Competition prep / 4 months", "text": "I prepared for my first professional bodybuilding competition here and placed 1st. The level here is simply different." }
+    ]
+  },
+  "membership": {
+    "badge": "Membership Plans",
+    "headline": "CHOOSE YOUR PLAN",
+    "sub": "Start today with a premium plan that fits your goals.",
+    "monthly": "month",
+    "popular": "Most Popular",
+    "getStarted": "Get Started",
+    "contactSales": "Contact Us",
+    "plans": {
+      "basic": {
+        "name": "BASIC",
+        "price": "299",
+        "currency": "000 UZS",
+        "features": ["Gym access (6:00–22:00)", "Cardio zone", "Locker room", "Mobile app access", "Weekly group class"]
+      },
+      "pro": {
+        "name": "PRO",
+        "price": "499",
+        "currency": "000 UZS",
+        "features": ["24/7 gym access", "All zones access", "2x monthly personal training", "Nutrition consultation", "Recovery zone", "Protein bar discount", "Premium mobile app"]
+      },
+      "elite": {
+        "name": "ELITE",
+        "price": "899",
+        "currency": "000 UZS",
+        "features": ["Unlimited 24/7 access", "Weekly personal training", "Individual nutrition plan", "All group classes", "VIP locker room", "Free protein bar", "Competition prep", "Health monitoring"]
+      }
+    }
+  },
+  "gallery": {
+    "badge": "Gallery",
+    "headline": "LIFE INSIDE",
+    "sub": "The spirit of our gym and the strength of our community.",
+    "filters": { "all": "All", "gym": "Gym", "training": "Training", "events": "Events", "community": "Community" }
+  },
+  "contact": {
+    "badge": "Contact",
+    "headline": "START YOUR",
+    "headline2": "TRANSFORMATION",
+    "sub": "Take your first step today. We are with you.",
+    "form": {
+      "name": "Your Name",
+      "phone": "Your Phone",
+      "program": "Interested Program",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent! We'll be in touch soon."
+    },
+    "info": {
+      "address": "Tashkent, Chilonzor, Bunyodkor str. 12",
+      "phone": "+998 90 123 45 67",
+      "email": "info@azizhaydarovgym.uz",
+      "hours": "Hours: Mon–Sun 6:00–23:00"
+    },
+    "social": "Social Media"
+  },
+  "footer": {
+    "tagline": "Your strongest version starts here.",
+    "links": "Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved."
+  }
+}

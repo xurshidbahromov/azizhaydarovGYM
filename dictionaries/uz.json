@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "programs": "Dasturlar",
+    "coaches": "Murabbiylar",
+    "facilities": "Zal",
+    "membership": "A'zolik",
+    "gallery": "Galereya",
+    "contact": "Aloqa",
+    "joinNow": "Hozir qo'shiling"
+  },
+  "hero": {
+    "tagline": "Eng kuchli versiyangiz",
+    "headline1": "BU YERDAN",
+    "headline2": "BOSHLANADI",
+    "sub": "Toshkentning eng premium sport zalidagi yuqori darajali trening tajribasiga xush kelibsiz.",
+    "cta1": "Hozir boshlash",
+    "cta2": "Ko'proq bilish",
+    "scroll": "Pastga suring"
+  },
+  "stats": {
+    "members": "A'zolar",
+    "coaches": "Professional Murabbiylar",
+    "years": "Yillik Tajriba",
+    "satisfaction": "Mijoz Mamnuniyati"
+  },
+  "about": {
+    "badge": "Bizning Falsafa",
+    "headline1": "Biz tana yaratmaymiz.",
+    "headline2": "Biz intizom yaratamiz.",
+    "body": "AzizHaydarov GYM — bu oddiy sport zali emas. Bu yuqori mahsuldorlikdagi muhit bo'lib, unda eng yaxshi jihozlar, professional murabbiylar va motivatsiya qiluvchi jamoa birlashadi. Sizning eng kuchli versiyangizni yaratish uchun biz bormiz.",
+    "mission": "Missiya",
+    "missionText": "Har bir a'zoni o'zining potentsialiga yetishishiga yordam berish.",
+    "vision": "Vizyon",
+    "visionText": "O'rta Osiyodagi eng yaxshi premium fitness markazi bo'lish.",
+    "values": "Qadriyatlar",
+    "valuesText": "Intizom. Sifat. Natija. Hamjamiyat."
+  },
+  "programs": {
+    "badge": "Bizning Dasturlar",
+    "headline": "O'Z YO'LINGIZNI TANLANG",
+    "sub": "Har bir maqsad uchun mo'ljallangan professional trening dasturlari.",
+    "learnMore": "Batafsil",
+    "items": {
+      "strength": { "title": "Kuch Mashqlari", "desc": "Asosiy kuch va mushak massasini oshirish uchun ilmiy asoslangan dastur.", "duration": "60 daqiqa", "level": "Barcha darajalar" },
+      "bodybuilding": { "title": "Bodibilding", "desc": "Professional bodibilding metodikasi asosida tana shaklini mukammallashtirish.", "duration": "90 daqiqa", "level": "O'rta–Yuqori" },
+      "weightloss": { "title": "Vazn Yo'qotish", "desc": "Tez va doimiy natijalar uchun optimal kaloriya yoqish dasturi.", "duration": "45 daqiqa", "level": "Boshlang'ich" },
+      "functional": { "title": "Funksional Fitnes", "desc": "Kundalik hayot uchun kuch, muvozanat va harakatchanlikni rivojlantirish.", "duration": "55 daqiqa", "level": "Barcha darajalar" },
+      "crossfit": { "title": "Kross Trening", "desc": "Yuqori intensivlikdagi interval trening orqali to'liq jismoniy qobiliyatni oshirish.", "duration": "50 daqiqa", "level": "O'rta–Yuqori" },
+      "personal": { "title": "Shaxsiy Trening", "desc": "1:1 individual dastur bilan tezroq va samaraliroq natijalarga erishing.", "duration": "60 daqiqa", "level": "Barcha darajalar" }
+    }
+  },
+  "coaches": {
+    "badge": "Bizning Jamoa",
+    "headline": "PROFESSIONAL MURABBIYLAR",
+    "sub": "10+ yillik tajribaga ega sertifikatlangan mutaxassislar jamoasi.",
+    "experience": "yil tajriba",
+    "certified": "Sertifikatlangan"
+  },
+  "facilities": {
+    "badge": "Bizning Zal",
+    "headline": "MUKAMMAL MUHIT",
+    "sub": "Har bir burchagi premium sifat uchun mo'ljallangan.",
+    "items": {
+      "cardio": { "title": "Kardio Zona", "desc": "50+ zamonaviy kardio jihozlari, jumladan Technogym va Peloton mashinalar." },
+      "strength": { "title": "Kuch Zonasi", "desc": "Olympic shtangalar, maxsus skameyalar va 500kg gacha og'irlik." },
+      "functional": { "title": "Funksional Maydon", "desc": "Battle ropes, kettlebell, plyo boxes va gymnastics rig to'liq to'plami." },
+      "locker": { "title": "Kiyinish Xonalari", "desc": "Premium kiyinish xonalari, dushlar va xavfsiz shaxsiy kabinetlar." },
+      "recovery": { "title": "Tiklanish Zona", "desc": "Sauna, krioterapiya, massaj stollari va foam rolling zona." },
+      "nutrition": { "title": "Protein Bar", "desc": "Yuqori sifatli protein shimirlari, salomatlik ovqatlari va individual oziqlanish maslahati." }
+    }
+  },
+  "transformations": {
+    "badge": "Natijalar",
+    "headline": "HAQIQIY O'ZGARISHLAR",
+    "sub": "Bizning a'zolarimizning hayot o'zgartiradigan natijalari.",
+    "before": "Oldin",
+    "after": "Keyin",
+    "testimonials": [
+      { "name": "Jasur Toshmatov", "result": "−24 kg / 6 oy", "text": "AzizHaydarov GYM mening hayotimni o'zgartirdi. Murabbiylar professional, jihozlar premium darajada. Hech qachon bu darajada motivatsiya his qilmagan edim." },
+      { "name": "Nilufar Karimova", "result": "+15 kg mushak / 8 oy", "text": "Ayollar uchun xavfsiz va qo'llab-quvvatlash muhitida trening qilish juda yoqimli. Murabbiylarim har qadamda yonimda bo'ldi." },
+      { "name": "Bobur Yusupov", "result": "Raqobat tayyorgarligi / 4 oy", "text": "Professional bodibilding musobaqasiga bu zalda tayyorlandim va 1-o'rinni egalladim. Bu yerning darajasi boshqacha." }
+    ]
+  },
+  "membership": {
+    "badge": "A'zolik Rejalari",
+    "headline": "O'Z REJANGIZNI TANLANG",
+    "sub": "Maqsadingizga mos keluvchi premium reja bilan bugun boshlang.",
+    "monthly": "oylik",
+    "popular": "Eng Mashhur",
+    "getStarted": "Boshlash",
+    "contactSales": "Biz bilan bog'laning",
+    "plans": {
+      "basic": {
+        "name": "BASIC",
+        "price": "299",
+        "currency": "000 UZS",
+        "features": ["Zal kirish (6:00–22:00)", "Kardio zonasi", "Kiyinish xonasi", "Mobil ilova kirish", "Haftalik guruh darsi"]
+      },
+      "pro": {
+        "name": "PRO",
+        "price": "499",
+        "currency": "000 UZS",
+        "features": ["Zal kirish (24/7)", "Barcha zonalarga kirish", "2x oylik shaxsiy trening", "Oziqlanish maslahati", "Tiklanish zona", "Protein bar chegirma", "Mobil ilova (premium)"]
+      },
+      "elite": {
+        "name": "ELITE",
+        "price": "899",
+        "currency": "000 UZS",
+        "features": ["Cheksiz kirish (24/7)", "Haftalik shaxsiy trening", "Individual oziqlanish reja", "Barcha guruh darslari", "VIP kiyinish xonasi", "Protein bar (bepul)", "Raqobat tayyorgarligi", "Sog'liq monitoringi"]
+      }
+    }
+  },
+  "gallery": {
+    "badge": "Galereya",
+    "headline": "HAYOT ICHKARIDA",
+    "sub": "Zalimizning ruhi va jamiyatimizning kuchi.",
+    "filters": { "all": "Hammasi", "gym": "Zal", "training": "Trening", "events": "Tadbirlar", "community": "Jamiyat" }
+  },
+  "contact": {
+    "badge": "Aloqa",
+    "headline": "O'ZGARISHINGIZNI",
+    "headline2": "BOSHLANG",
+    "sub": "Bugun birinchi qadamingizni qo'ying. Biz siz bilan.",
+    "form": {
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "program": "Qiziqayotgan dastur",
+      "message": "Xabar",
+      "submit": "Yuborish",
+      "success": "Xabaringiz yuborildi! Tez orada bog'lanamiz."
+    },
+    "info": {
+      "address": "Toshkent sh., Chilonzor tumani, Bunyodkor ko'chasi 12",
+      "phone": "+998 90 123 45 67",
+      "email": "info@azizhaydarovgym.uz",
+      "hours": "Ish vaqti: Du–Yak 6:00–23:00"
+    },
+    "social": "Ijtimoiy tarmoqlar"
+  },
+  "footer": {
+    "tagline": "Eng kuchli versiyangiz bu yerdan boshlanadi.",
+    "links": "Havolalar",
+    "legal": "Huquqiy",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "rights": "Barcha huquqlar himoyalangan."
+  }
+}
