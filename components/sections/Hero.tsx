@@ -32,9 +32,9 @@ const PROMO_TEXT: Record<Locale, { title: string; desc: string }> = {
 };
 
 const CLIENTS_TEXT: Record<Locale, { title: string; desc: string }> = {
-  uz: { title: "5,000+ faol a'zolar", desc: "Turli maqsadlar bilan kelishadi, lekin hammasi natijaga erishadi." },
-  en: { title: "5,000+ active members", desc: "They arrive with different goals, yet they all find success." },
-  ru: { title: "5,000+ активных членов", desc: "Они приходят с разными целями, но все достигают успеха." },
+  uz: { title: "2000+ faol a'zolar", desc: "Turli maqsadlar bilan kelishadi, lekin hammasi natijaga erishadi." },
+  en: { title: "2000+ active members", desc: "They arrive with different goals, yet they all find success." },
+  ru: { title: "2000+ активных членов", desc: "Они приходят с разными целями, но все достигают успеха." },
 };
 
 const SLIDER_TIPS: Record<Locale, string[]> = {
