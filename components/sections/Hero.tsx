@@ -26,9 +26,9 @@ const STATEMENTS: Record<Locale, string[]> = {
 };
 
 const PROMO_TEXT: Record<Locale, { title: string; desc: string }> = {
-  uz: { title: "14 kun bepul sinov", desc: "Shunchaki qo'ng'iroq qiling yoki bizga yozing" },
-  en: { title: "Get 14 days for free", desc: "Just give us a call or message us in the chat" },
-  ru: { title: "14 дней бесплатно", desc: "Просто позвоните или напишите нам в чат" },
+  uz: { title: "7 kun bepul sinov", desc: "Shunchaki qo'ng'iroq qiling yoki bizga yozing" },
+  en: { title: "Get 7 days for free", desc: "Just give us a call or message us in the chat" },
+  ru: { title: "7 дней бесплатно", desc: "Просто позвоните или напишите нам в чат" },
 };
 
 const CLIENTS_TEXT: Record<Locale, { title: string; desc: string }> = {
