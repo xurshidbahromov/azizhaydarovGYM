@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { type Locale } from "@/dictionaries";
 
 interface NavDict {
@@ -48,7 +49,7 @@ export default function Navbar({ dict, locale }: { dict: NavDict; locale: Locale
             aria-label="AzizHaydarov GYM — Home"
             className="nav-island"
             style={{ 
-              padding: "8px 20px 8px 12px", 
+              padding: "10px 24px", 
               display: "flex", 
               alignItems: "center", 
               gap: 12, 
@@ -57,15 +58,13 @@ export default function Navbar({ dict, locale }: { dict: NavDict; locale: Locale
               WebkitBackdropFilter: "blur(24px) saturate(200%)",
             }}
           >
-            <div style={{
-              width: 32, height: 32, borderRadius: "50%",
-              background: "var(--red)", color: "#fff",
-              display: "flex", alignItems: "center", justifyContent: "center",
-              fontWeight: 900, fontSize: 11, letterSpacing: "0.05em",
-              boxShadow: "0 2px 10px rgba(200, 55, 45, 0.4)"
-            }}>
-              AH
-            </div>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
+              {/* Sharp minimal A */}
+              <path d="M3 20L9.5 4L16 20" stroke="var(--red)" strokeWidth="3" strokeLinecap="square" strokeLinejoin="miter" />
+              <path d="M6 14H13" stroke="var(--red)" strokeWidth="2.5" strokeLinecap="square" />
+              {/* Sharp minimal H */}
+              <path d="M17 6V20M21 6V20M17 13H21" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="square" />
+            </svg>
             <span style={{
               fontFamily: "var(--font-display)",
               fontWeight: 800,
