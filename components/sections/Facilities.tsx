@@ -172,6 +172,56 @@ export default function Facilities({ dict }: { dict: FacilitiesDict }) {
                         >
                           {String(i + 1).padStart(2, "0")}
                         </span>
+                        <div
+                          style={{
+                            width: 32,
+                            height: 32,
+                            borderRadius: 8,
+                            background: isOpen ? "rgba(200, 55, 45, 0.15)" : "rgba(255, 255, 255, 0.04)",
+                            border: isOpen ? "1px solid rgba(200, 55, 45, 0.3)" : "1px solid rgba(255, 255, 255, 0.08)",
+                            color: isOpen ? "var(--red)" : "var(--ink-40)",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            transition: "all 0.25s ease",
+                            flexShrink: 0,
+                          }}
+                        >
+                          {k === "cardio" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                            </svg>
+                          )}
+                          {k === "strength" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M6 5v14M18 5v14M3 8v8M21 8v8M6 12h12" />
+                            </svg>
+                          )}
+                          {k === "functional" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                              <polyline points="2 17 12 22 22 17" />
+                              <polyline points="2 12 12 17 22 12" />
+                            </svg>
+                          )}
+                          {k === "locker" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                            </svg>
+                          )}
+                          {k === "recovery" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+                            </svg>
+                          )}
+                          {k === "nutrition" && (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M12 2v8M18 6l-6 4M6 6l6 4" />
+                              <circle cx="12" cy="15" r="5" />
+                            </svg>
+                          )}
+                        </div>
                         <span 
                           className="facility-title" 
                           style={{ 

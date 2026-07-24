@@ -34,16 +34,34 @@ export default function About({ dict }: { dict: AboutDict }) {
       title: dict.mission,
       desc: dict.missionText,
       image: "/about-athlete.jpg",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <circle cx="12" cy="12" r="6" />
+          <circle cx="12" cy="12" r="2" />
+        </svg>
+      )
     },
     {
       title: dict.vision,
       desc: dict.visionText,
       image: "/images/facility-strength.png",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+          <circle cx="12" cy="12" r="3" />
+        </svg>
+      )
     },
     {
       title: dict.values,
       desc: dict.valuesText,
       image: "/images/facility-cardio.png",
+      icon: (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+        </svg>
+      )
     }
   ];
 
@@ -157,19 +175,24 @@ export default function About({ dict }: { dict: AboutDict }) {
             >
               {/* Card top half: text */}
               <div style={{ padding: "32px 24px", flex: 1 }}>
-                <h3 
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontWeight: 700,
-                    fontSize: 20,
-                    textTransform: "uppercase",
-                    color: "var(--ink)",
-                    marginBottom: 12,
-                    letterSpacing: "0.02em"
-                  }}
-                >
-                  {card.title}
-                </h3>
+                <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
+                  <div style={{ width: 36, height: 36, borderRadius: 10, background: "rgba(200, 55, 45, 0.12)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(200, 55, 45, 0.25)" }}>
+                    {card.icon}
+                  </div>
+                  <h3 
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontWeight: 700,
+                      fontSize: 20,
+                      textTransform: "uppercase",
+                      color: "var(--ink)",
+                      margin: 0,
+                      letterSpacing: "0.02em"
+                    }}
+                  >
+                    {card.title}
+                  </h3>
+                </div>
                 <p style={{ fontSize: 13.5, color: "var(--ink-60)", lineHeight: 1.6 }}>
                   {card.desc}
                 </p>

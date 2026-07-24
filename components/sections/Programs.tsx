@@ -93,9 +93,46 @@ export default function Programs({ dict }: { dict: ProgramsDict }) {
               <span className="program-num">{p.num}</span>
 
               <div>
-                <div className="program-name">{p.title}</div>
+                <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                  <div style={{ width: 30, height: 30, borderRadius: 8, background: "rgba(200, 55, 45, 0.12)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(200, 55, 45, 0.2)", flexShrink: 0 }}>
+                    {p.id === "strength" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M6 5v14M18 5v14M3 8v8M21 8v8M6 12h12" />
+                      </svg>
+                    )}
+                    {p.id === "bodybuilding" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z" />
+                        <line x1="16" y1="8" x2="2" y2="22" />
+                        <line x1="17.5" y1="15" x2="9" y2="6.5" />
+                      </svg>
+                    )}
+                    {p.id === "weightloss" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+                      </svg>
+                    )}
+                    {p.id === "functional" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                      </svg>
+                    )}
+                    {p.id === "crossfit" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                      </svg>
+                    )}
+                    {p.id === "personal" && (
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                        <circle cx="12" cy="7" r="4" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="program-name">{p.title}</div>
+                </div>
                 <div style={{
-                  fontSize: 13, color: "var(--ink-40)", marginTop: 3,
+                  fontSize: 13, color: "var(--ink-40)", marginTop: 6,
                   maxWidth: 500, lineHeight: 1.6,
                 }}>
                   {p.desc}
