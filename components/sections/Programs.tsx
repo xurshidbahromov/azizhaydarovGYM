@@ -94,7 +94,7 @@ export default function Programs({ dict }: { dict: ProgramsDict }) {
 
               <div>
                 <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-                  <div style={{ width: 30, height: 30, borderRadius: 8, background: "rgba(200, 55, 45, 0.12)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(200, 55, 45, 0.2)", flexShrink: 0 }}>
+                  <div style={{ color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
                     {p.id === "strength" && (
                       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M6 5v14M18 5v14M3 8v8M21 8v8M6 12h12" />

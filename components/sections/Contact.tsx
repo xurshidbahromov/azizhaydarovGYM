@@ -218,16 +218,12 @@ export default function Contact({ dict }: { dict: ContactDict }) {
                   >
                     <div
                       style={{
-                        width: 36,
-                        height: 36,
-                        background: "rgba(200, 55, 45, 0.08)",
-                        border: "1px solid rgba(200, 55, 45, 0.15)",
-                        borderRadius: 6,
+                        color: "var(--red)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        color: "var(--red)",
                         flexShrink: 0,
+                        paddingTop: 4,
                       }}
                     >
                       {item.icon}

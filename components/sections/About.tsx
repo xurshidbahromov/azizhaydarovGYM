@@ -176,7 +176,7 @@ export default function About({ dict }: { dict: AboutDict }) {
               {/* Card top half: text */}
               <div style={{ padding: "32px 24px", flex: 1 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-                  <div style={{ width: 36, height: 36, borderRadius: 10, background: "rgba(200, 55, 45, 0.12)", color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(200, 55, 45, 0.25)" }}>
+                  <div style={{ color: "var(--red)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
                     {card.icon}
                   </div>
                   <h3 

@@ -174,11 +174,6 @@ export default function Facilities({ dict }: { dict: FacilitiesDict }) {
                         </span>
                         <div
                           style={{
-                            width: 32,
-                            height: 32,
-                            borderRadius: 8,
-                            background: isOpen ? "rgba(200, 55, 45, 0.15)" : "rgba(255, 255, 255, 0.04)",
-                            border: isOpen ? "1px solid rgba(200, 55, 45, 0.3)" : "1px solid rgba(255, 255, 255, 0.08)",
                             color: isOpen ? "var(--red)" : "var(--ink-40)",
                             display: "flex",
                             alignItems: "center",
