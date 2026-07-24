@@ -352,16 +352,24 @@ export default function Transformations({ dict }: { dict: TransformationsDict })
                       </div>
                     </div>
 
-                    <span
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       style={{
-                        fontSize: 18,
                         color: isActive ? "var(--red)" : "var(--ink-25)",
                         transition: "transform 0.3s ease, color 0.3s ease",
                         transform: isActive ? "rotate(90deg)" : "none",
+                        flexShrink: 0,
                       }}
                     >
-                      →
-                    </span>
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
                   </div>
 
                   {isActive && (

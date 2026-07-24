@@ -299,7 +299,10 @@ export default function Membership({ dict }: { dict: MembershipDict }) {
                       color: "var(--ink)",
                       fontWeight: 700,
                       letterSpacing: "0.1em",
-                      transition: "all 0.3s ease"
+                      transition: "all 0.3s ease",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 8,
                     }}
                     onMouseEnter={(e) => {
                       if (isPro) {
@@ -318,7 +321,10 @@ export default function Membership({ dict }: { dict: MembershipDict }) {
                       }
                     }}
                   >
-                    {dict.getStarted}
+                    {isPro ? dict.getStarted : dict.contactSales}
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
                   </a>
                 </div>
               </article>

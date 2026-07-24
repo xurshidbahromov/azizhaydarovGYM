@@ -158,10 +158,16 @@ export default function Hero({ dict, locale }: HeroProps) {
                 letterSpacing: "0.1em",
                 background: "var(--red)",
                 borderColor: "var(--red)",
-                boxShadow: "0 4px 15px rgba(200, 55, 45, 0.4)"
+                boxShadow: "0 4px 15px rgba(200, 55, 45, 0.4)",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
               }}
             >
-              {dict.cta1} ↗
+              {dict.cta1}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
             </a>
             <a
               href="#about"
@@ -328,10 +334,11 @@ export default function Hero({ dict, locale }: HeroProps) {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: 12
                 }}
               >
-                ↗
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M7 17L17 7M7 7h10v10" />
+                </svg>
               </div>
             </div>
             <div>
