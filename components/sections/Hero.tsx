@@ -100,7 +100,6 @@ export default function Hero({ dict, locale }: HeroProps) {
         background: "var(--void)"
       }}
     >
-      {/* Background visual */}
       <div className="hero__bg">
         <Image
           src="/hero-bg.jpg"
@@ -108,6 +107,7 @@ export default function Hero({ dict, locale }: HeroProps) {
           fill
           priority
           quality={90}
+          className="cinematic-photo"
           style={{ objectFit: "cover", objectPosition: "center 30%" }}
         />
       </div>
@@ -274,7 +274,7 @@ export default function Hero({ dict, locale }: HeroProps) {
           >
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <span style={{ fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--ink-40)" }}>
-                TOSHKENT, O'ZBEKISTON
+                BUVAYDA, O'ZBEKISTON
               </span>
               {/* Controls */}
               <div style={{ display: "flex", gap: 6 }}>

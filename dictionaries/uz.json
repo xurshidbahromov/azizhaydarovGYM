@@ -94,20 +94,20 @@
     "plans": {
       "basic": {
         "name": "BASIC",
-        "price": "299",
-        "currency": "000 UZS",
+        "price": "249 000",
+        "currency": "UZS",
         "features": ["Zal kirish (6:00–22:00)", "Kardio zonasi", "Kiyinish xonasi", "Mobil ilova kirish", "Haftalik guruh darsi"]
       },
       "pro": {
         "name": "PRO",
-        "price": "499",
-        "currency": "000 UZS",
+        "price": "299 000",
+        "currency": "UZS",
         "features": ["Zal kirish (24/7)", "Barcha zonalarga kirish", "2x oylik shaxsiy trening", "Oziqlanish maslahati", "Tiklanish zona", "Protein bar chegirma", "Mobil ilova (premium)"]
       },
       "elite": {
         "name": "ELITE",
-        "price": "899",
-        "currency": "000 UZS",
+        "price": "399 000",
+        "currency": "UZS",
         "features": ["Cheksiz kirish (24/7)", "Haftalik shaxsiy trening", "Individual oziqlanish reja", "Barcha guruh darslari", "VIP kiyinish xonasi", "Protein bar (bepul)", "Raqobat tayyorgarligi", "Sog'liq monitoringi"]
       }
     }
@@ -132,9 +132,9 @@
       "success": "Xabaringiz yuborildi! Tez orada bog'lanamiz."
     },
     "info": {
-      "address": "Toshkent sh., Chilonzor tumani, Bunyodkor ko'chasi 12",
-      "phone": "+998 90 123 45 67",
-      "email": "info@azizhaydarovgym.uz",
+      "address": "Farg'ona viloyati, Buvayda tumani, Yangiqurgan shaharchasi",
+      "phone": "+998 90 704 14 18",
+      "email": "[EMAIL_ADDRESS]",
       "hours": "Ish vaqti: Du–Yak 6:00–23:00"
     },
     "social": "Ijtimoiy tarmoqlar"

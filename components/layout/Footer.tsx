@@ -82,8 +82,8 @@ export default function Footer({ dict, nav, locale }: Props) {
       role="contentinfo"
     >
       {/* Subtle grid pattern in footer */}
-      <div 
-        aria-hidden="true" 
+      <div
+        aria-hidden="true"
         style={{
           position: "absolute",
           inset: 0,
@@ -245,14 +245,15 @@ export default function Footer({ dict, nav, locale }: Props) {
               MANZIL
             </div>
             <p style={{ fontSize: 13.5, color: "var(--ink-40)", lineHeight: 1.6, marginBottom: 16 }}>
-              Toshkent sh., Chilonzor tumani, Bunyodkor ko'chasi 12
+              Farg'ona viloyati, Buvayda tumani, Yangiqurgan shaharchasi
             </p>
+            <p style={{ fontSize: 13.5, color: "var(--ink-40)", lineHeight: 1.6, marginBottom: 16 }}>Mo'ljal: Ansor savdo markazi yonida</p>
             <div style={{ display: "flex", flexDirection: "column", gap: 8, fontSize: 13 }}>
-              <a href="tel:+998901234567" style={{ color: "var(--red)", fontWeight: 600, textDecoration: "none" }}>
-                +998 90 123 45 67
+              <a href="tel:+998907041418" style={{ color: "var(--red)", fontWeight: 600, textDecoration: "none" }}>
+                +998 90 704 14 18
               </a>
               <span style={{ color: "var(--ink-40)" }}>
-                info@azizhaydarovgym.uz
+                [EMAIL_ADDRESS]
               </span>
             </div>
           </div>
@@ -275,10 +276,10 @@ export default function Footer({ dict, nav, locale }: Props) {
             <p style={{ fontSize: 13.5, color: "var(--ink-40)", lineHeight: 1.6, marginBottom: 16 }}>
               Eng so'nggi mashg'ulot bo'yicha maslahatlar va a'zolik takliflarini birinchilardan bo'lib oling.
             </p>
-            <form 
-              onSubmit={(e) => e.preventDefault()} 
-              style={{ 
-                display: "flex", 
+            <form
+              onSubmit={(e) => e.preventDefault()}
+              style={{
+                display: "flex",
                 alignItems: "center",
                 borderBottom: "1px solid var(--line)",
                 paddingBottom: 8
@@ -297,12 +298,12 @@ export default function Footer({ dict, nav, locale }: Props) {
                   paddingRight: 8
                 }}
               />
-              <button 
-                type="submit" 
-                style={{ 
+              <button
+                type="submit"
+                style={{
                   background: "none",
                   border: "none",
-                  color: "var(--red)", 
+                  color: "var(--red)",
                   cursor: "pointer",
                   display: "flex",
                   alignItems: "center",

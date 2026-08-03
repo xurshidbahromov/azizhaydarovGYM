@@ -94,20 +94,20 @@
     "plans": {
       "basic": {
         "name": "BASIC",
-        "price": "299",
-        "currency": "000 UZS",
+        "price": "249 000",
+        "currency": "UZS",
         "features": ["Gym access (6:00–22:00)", "Cardio zone", "Locker room", "Mobile app access", "Weekly group class"]
       },
       "pro": {
         "name": "PRO",
-        "price": "499",
-        "currency": "000 UZS",
+        "price": "299 000",
+        "currency": "UZS",
         "features": ["24/7 gym access", "All zones access", "2x monthly personal training", "Nutrition consultation", "Recovery zone", "Protein bar discount", "Premium mobile app"]
       },
       "elite": {
         "name": "ELITE",
-        "price": "899",
-        "currency": "000 UZS",
+        "price": "399 000",
+        "currency": "UZS",
         "features": ["Unlimited 24/7 access", "Weekly personal training", "Individual nutrition plan", "All group classes", "VIP locker room", "Free protein bar", "Competition prep", "Health monitoring"]
       }
     }

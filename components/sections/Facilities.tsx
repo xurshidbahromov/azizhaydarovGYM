@@ -43,15 +43,19 @@ export default function Facilities({ dict }: { dict: FacilitiesDict }) {
   const getZoneImage = (zone: string | null) => {
     switch (zone) {
       case "cardio":
-      case "locker":
-        return "/images/facility-cardio.png";
+        return "/images/facility-cardio.jpg";
       case "strength":
+        return "/images/facility-strength.jpg";
       case "functional":
-        return "/images/facility-strength.png";
+        return "/images/facility-functional.jpg";
+      case "locker":
+        return "/images/facility-locker.jpg";
       case "recovery":
+        return "/images/facility-recovery.jpg";
       case "nutrition":
+        return "/images/facility-nutrition.jpg";
       default:
-        return "/images/facility-recovery.png";
+        return "/images/facility-strength.jpg";
     }
   };
 
@@ -298,6 +302,7 @@ export default function Facilities({ dict }: { dict: FacilitiesDict }) {
                 src={getZoneImage(open)}
                 alt="AzizHaydarov GYM Facilities"
                 fill
+                className="cinematic-photo"
                 style={{ objectFit: "cover", transition: "filter 0.5s ease, transform 0.8s ease" }}
                 sizes="40vw"
               />
