@@ -243,7 +243,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
               </ul>
             </div>
 
-            {/* Premium Maps Box (Titan Gym look with google maps placeholder/clean design) */}
+            {/* Real Google Maps Iframe */}
             <div
               style={{
                 border: "1px solid var(--line)",
@@ -251,62 +251,18 @@ export default function Contact({ dict }: { dict: ContactDict }) {
                 overflow: "hidden",
                 height: 240,
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexDirection: "column",
-                gap: 12,
-                background: "linear-gradient(135deg, #0d0d0d 0%, #111 100%)",
                 position: "relative",
               }}
-              aria-label="Map — Tashkent, Chilonzor, Bunyodkor street 12"
             >
-              {/* Subtle visual grid inside map */}
-              <div 
-                style={{
-                  position: "absolute",
-                  inset: 0,
-                  backgroundImage: "linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)",
-                  backgroundSize: "20px 20px"
-                }}
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515.6793761765712!2d71.13992546247864!3d40.55575423768891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bae3007e91843b%3A0xe3a9c0f83f728626!2sLife%20GYM!5e0!3m2!1sen!2s!4v1785692030854!5m2!1sen!2s" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={false} 
+                loading="lazy" 
+                referrerPolicy="strict-origin-when-cross-origin"
               />
-              <div
-                style={{
-                  width: 48,
-                  height: 48,
-                  borderRadius: "50%",
-                  background: "var(--red)",
-                  color: "var(--ink)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  boxShadow: "0 4px 12px rgba(200, 55, 45, 0.4)",
-                  zIndex: 2,
-                }}
-                aria-hidden="true"
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-              </div>
-              <span
-                style={{
-                  fontFamily: "var(--font-body)",
-                  fontSize: 12.5,
-                  fontWeight: 600,
-                  letterSpacing: "0.05em",
-                  color: "var(--ink-40)",
-                  textTransform: "uppercase",
-                  textAlign: "center",
-                  padding: "0 20px",
-                  zIndex: 2,
-                  lineHeight: 1.5
-                }}
-              >
-                Tashkent, Chilonzor
-                <br />
-                <span style={{ fontSize: 11, fontWeight: 400, color: "var(--ink-25)" }}>Bunyodkor str. 12</span>
-              </span>
             </div>
           </div>
 
