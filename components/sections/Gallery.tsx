@@ -12,15 +12,9 @@ const ITEMS = [
   { id:"g1",  cat:"gym",       label:"Og'irliklar Xonasi",  h:280, img: "/images/facility-strength.jpg" },
   { id:"g2",  cat:"training",  label:"Kardio Mashg'uloti",  h:200, img: "/images/facility-cardio.jpg" },
   { id:"g3",  cat:"community", label:"Protein Bar",         h:340, img: "/images/facility-nutrition.jpg" },
-  { id:"g4",  cat:"gym",       label:"Kardio Zonasi",       h:240, img: "/images/facility-cardio.jpg" },
-  { id:"g5",  cat:"training",  label:"Krossfit Mashg'uloti",h:300, img: "/images/facility-functional.jpg" },
-  { id:"g6",  cat:"events",    label:"Og'ir Atletika",      h:210, img: "/images/facility-strength.jpg" },
-  { id:"g7",  cat:"gym",       label:"Funksional Zona",     h:260, img: "/images/facility-functional.jpg" },
-  { id:"g8",  cat:"community", label:"Kiyinish Xonasi",     h:200, img: "/images/facility-locker.jpg" },
-  { id:"g9",  cat:"training",  label:"Shaxsiy Mashg'ulot",  h:340, img: "/images/facility-strength.jpg" },
-  { id:"g10", cat:"events",    label:"Sport Oziqlanish",    h:210, img: "/images/facility-nutrition.jpg" },
-  { id:"g11", cat:"gym",       label:"Tiklanish Zonasi",    h:280, img: "/images/facility-recovery.jpg" },
-  { id:"g12", cat:"community", label:"Oziqlanish Burchagi", h:220, img: "/images/facility-nutrition.jpg" },
+  { id:"g4",  cat:"training",  label:"Krossfit Mashg'uloti",h:300, img: "/images/facility-functional.jpg" },
+  { id:"g5",  cat:"community", label:"Kiyinish Xonasi",     h:200, img: "/images/facility-locker.jpg" },
+  { id:"g6",  cat:"gym",       label:"Umumiy Zal Ko'rinishi",h:260, img: "/hero-bg.jpg" },
 ];
 
 export default function Gallery({ dict }: { dict: GalleryDict }) {
